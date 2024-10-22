@@ -1,3 +1,4 @@
+import 'package:atl_b3_mobile/widgets/mic_input_button.dart';
 import 'package:flutter/material.dart';
 import 'package:glowy_borders/glowy_borders.dart';
 
@@ -70,6 +71,8 @@ class _ChatInputBoxState extends State<ChatInputBox> {
                 ),
             ),
           ),
+
+          const MicInputButton(),
           Padding(
             padding: const EdgeInsets.all(4.0),
             child: AnimatedGradientBorder(

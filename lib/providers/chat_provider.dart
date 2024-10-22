@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
+import 'package:speech_to_text/speech_to_text.dart';
 
 class ChatProvider extends ChangeNotifier {
   final List<Content> _chats = [];
